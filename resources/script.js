@@ -36,7 +36,7 @@
         data: c.totalReports
       },
       {
-        name:'Total Reports',
+        name:'Failed Reports',
         data: c.failedReports
       }
     ]
