@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+
+  <link rel="stylesheet" href="resources/style.css">
+
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/modules/data.js"></script>
+  <script src="https://code.highcharts.com/modules/exporting.js"></script>
+  <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="dropdown-container">
+      <select id="teamDropDown" class="dropdown" name="cars" id="cars">
+        <option value="c1">The Weather Company</option>
+        <option value="c2">Flowers.com</option>
+        <option value="c3">Adidas</option>
+        <option value="c4">Toyota</option>
+      </select>
+    </div>
+    <div>
+      <figure class="highcharts-figure">
+       <div class="chart-container">
+        <div class="chart-item" id="barGraph"></div>
+        <div class="chart-item" id="lineGraph"></div>
+       </div>
+      </figure>
+    </div>
+  </div>
+
+</body>
+<script src="resources/script.js"></script>
+</html>
